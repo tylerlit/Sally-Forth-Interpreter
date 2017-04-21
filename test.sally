@@ -1,0 +1,158 @@
+."here is my proj2 test file hooray!!! "
+.
+CR
+//less than
+//
+3 4 <
+.
+CR
+4 3 <
+.
+CR
+4 4 <
+.
+CR
+CR
+//less than or equal to
+//
+3 4 <=
+.
+CR
+4 3 <=
+.
+CR
+4 4 <=
+.
+CR
+CR
+//equals equals
+//
+3 4 ==
+.
+CR
+3 3 ==
+.
+CR
+CR
+//bang equals
+//
+3 4 !=
+.
+CR
+3 3 !=
+.
+CR
+CR
+//greater than or equal to
+//
+3 4 >=
+.
+CR
+3 3 >=
+.
+CR
+4 3 >=
+.
+CR
+CR
+//greater than
+//
+3 4 >
+.
+CR
+3 3 >
+.
+CR
+4 3 > 
+.
+CR
+CR
+//and
+//
+3 4 AND
+.
+CR
+0 0 AND
+.
+CR
+0 1 AND
+. 
+CR
+CR
+//or
+//
+3 4 OR 
+.
+CR
+0 0 OR
+.
+CR
+0 1 OR
+.
+CR
+CR
+//not
+//
+3 NOT 
+.
+CR
+0 NOT
+.
+CR
+CR
+//set 
+//
+13 Lucky SET
+//fetch
+//
+Lucky @
+.
+CR
+//bang
+//
+17 Lucky !
+CR
+Lucky @
+.
+CR
+CR
+//duplicate
+//
+15 DUP 
+.
+SP
+.
+CR
+CR
+//drop
+//
+15 DUP
+DROP 
+.
+CR
+CR
+//swap
+//
+41 79 SWAP 
+.
+CR
+.
+CR
+CR
+//rotate
+//
+17 18 19 ROT 
+. SP . SP .
+CR CR
+//if then statements
+//
+1 2 > IFTHEN
+."It's true!" . CR
+ELSE
+."It's false!" . CR
+ENDIF
+1 2 <= IFTHEN
+."It's true!" . CR
+ELSE
+."It's false!" . CR
+ENDIF
